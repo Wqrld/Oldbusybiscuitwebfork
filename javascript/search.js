@@ -1,0 +1,2 @@
+<script type="text/javascript" src="https://dl.dropboxusercontent.com/s/gv9ol503vdrjcgf/search.js"></script>
+Search: <input size="30" type="text" id="search" class="search_box" onkeyup="search()" value="Browse Projects" onfocus="if(this.value == 'Browse Projects'){this.value='';}" />
