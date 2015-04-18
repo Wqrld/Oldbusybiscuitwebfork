@@ -87,13 +87,13 @@ img {
 	height: 50px;
 }
 img.github {
-	right: 60px;
+	right: 65px;
 }
 img.bukkit {
-	right: 115px;
+	right: 120px;
 }
 img.steam {
-	right: 5px;
+	right: 10px;
 }
 span {
 	position: fixed;
@@ -101,7 +101,11 @@ span {
 	font-weight: bold;
 	font-size: 150%;
 	right: 40px;
-	color: #111111;
+	color: #222222;
+	background-color: #888888;
+	border-color: #555555;
+	border-width: 3px;
+	border-style: solid;
 }
 img:hover {
 	opacity: 1.0;
