@@ -78,3 +78,38 @@ input.search_box {
 	color: #CCCCCC;
 	font-weight: bold;
 }
+img {
+	opacity: 0.6;
+	filter: aplpha(opacity=40);
+	position: fixed;
+	bottom: 5px;
+	width: 50px;
+	height: 50px;
+}
+img.github {
+	right: 60px;
+}
+img.bukkit {
+	right: 115px;
+}
+img.steam {
+	right: 5px;
+}
+span {
+	position: fixed;
+	bottom: 55px;
+	font-weight: bold;
+	font-size: 150%;
+	right: 40px;
+	color: #111111;
+}
+img:hover {
+	opacity: 1.0;
+	filter: aplpha(opacity=100);
+}
+img + span {
+    display: none;
+}
+img:hover + span {
+    display: inline;
+}
