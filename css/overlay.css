@@ -7,13 +7,10 @@ img {
 	height: 50px;
 }
 img.github {
-	right: 65px;
+	right: 10;
 }
 img.bukkit {
-	right: 120px;
-}
-img.steam {
-	right: 10px;
+	right: 65;
 }
 span {
 	position: fixed;
