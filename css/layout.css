@@ -1,18 +1,20 @@
 div {
-	color: #D8D8D8;
+	color: #373737;
 }
 ul {
 	list-style-type: none;
 	color: #D8D8D8;
 	float: top;
-	background-color: #292E37;
-	top: -15px;
-	position: relative;
-	width: auto;
+	background-color: #2E2E2E;
+	position: fixed;
+	top: -25px;
+	left: 0px;
+	width: 100%;
 	height: 70px;
 }
 table {
 	width: 100%;
+	float: left;
 	border-style: solid;
 	border-width: 4px;
 	border-color: #767A79;
@@ -22,27 +24,28 @@ li {
 }
 li.search {
 	float: right;
+    right: -20px;
 }
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #DFDFDF;
+	color: #393939;
 }
 a:hover {
-	color: #FDFDFD;
+	color: #696969;
 }
 th {
-	color: #2C2C2C;
+	color: #161616;
 	font-weight: bold;
 	overflow: hidden;
 	height: 30px;
 }
 td {
-	color: #DFDFDF;
+	color: #212121;
 	height: 30px;
 }
 a.navbar {
-	background-color: #292E37;
+	background-color: #2E2E2E;
 	color: #D8D8D8;
 	height: 35px;
 	display: block;
@@ -58,17 +61,17 @@ a.navbarSel {
 	text-align: center;
 	margin-top: 10px;
 	height: 50px;
-	background-color: #40485A;
+	background-color: #3E3E3E;
 	color: #E8E8E8;
 }
 a.navbar:hover {
 	margin-top: 10px;
 	height: 50px;
-	background-color: #40485A;
+	background-color: #3E3E3E;
 	color: #E8E8E8;
 }
 input.search_box {
-	background-color: #40485A;
+	background-color: #3E3E3E;
 	border-width: 1px;
 	border-color:  #2E2E2E;
 	width: 200px;
