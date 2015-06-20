@@ -1,5 +1,5 @@
 img {
-	opacity: 0.6;
+	opacity: 0.7;
 	filter: aplpha(opacity=40);
 	position: fixed;
 	bottom: 5px;
@@ -18,12 +18,22 @@ img.youtube {
 img.twitter {
 	right: 175px;
 }
+img.nodecraft {
+	left: 10px;
+	width: 166px;
+	opacity: 0.9;
+}
+span.nodecraft {
+	left: 20px;
+}
+span.overlay {
+	right: 40px;
+}
 span {
 	position: fixed;
 	bottom: 70px;
 	font-weight: bold;
 	font-size: 150%;
-	right: 40px;
 	color: #222222;
 	background-color: #888888;
 	border-color: #555555;
