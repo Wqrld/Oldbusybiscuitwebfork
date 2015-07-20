@@ -24,7 +24,6 @@ li {
 }
 li.search {
 	float: right;
-    right: -20px;
 }
 a {
 	text-decoration: none;
@@ -53,6 +52,12 @@ a.navbar {
 	padding: 5px;
 	margin-top: 25px;
 	text-align: center;
+}
+a.header {
+	display: block;
+	width: 115px;
+	padding: 1px;
+	margin-right: 40px;
 }
 a.navbarSel {
 	display: block;
