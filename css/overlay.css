@@ -1,3 +1,9 @@
+a.header {
+	display: block;
+	width: 115px;
+	padding: 1px;
+	margin-right: 40px;
+}
 img:not(.header) {
 	opacity: 0.7;
 	filter: aplpha(opacity=40);
